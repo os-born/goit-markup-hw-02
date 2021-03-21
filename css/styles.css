@@ -153,7 +153,7 @@ body {
   color: var(--title-text-color);
 }
 
-.footer .no-line {
+.footer {
   text-decoration: none;
   background-color: #2f303a;
 }
