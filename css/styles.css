@@ -10,6 +10,7 @@ body {
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --hero-background-color: #2f303a;
+  --team-background-color: #f5f4fa;
 }
 h1,
 h2,
@@ -113,7 +114,16 @@ a {
   cursor: pointer;
 }
 
-.portfolio-cards h2 {
+.advantages-section {
+  background-color: var(--primary-white-color);
+}
+
+.advantages-title {
+  font-size: 14px;
+  color: var(--title-text-color);
+}
+
+.portfolio-cards {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -121,6 +131,20 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+}
+
+.portfolio-title {
+  font-size: 36px;
+  color: var(--title-text-color);
+}
+
+.team-section {
+  background-color: var(--team-background-color);
+}
+
+.team-title {
+  font-size: 36px;
+  color: var(--title-text-color);
 }
 
 .footer {
@@ -152,7 +176,7 @@ a {
   color: var(--accent-color);
 }
 
-.hero {
+.hero-title {
   font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
@@ -168,9 +192,12 @@ a {
 }
 
 .hero-button {
-  color: var(--primary-white-color);
-  background: #2196f3;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  background-color: #2196f3;
+  color: var(--primary-white-color);
 }
