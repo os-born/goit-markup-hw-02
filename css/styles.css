@@ -17,6 +17,10 @@ body {
   list-style-type: none;
 }
 
+.no-line {
+  text-decoration: none;
+}
+
 .no-line a {
   text-decoration: none;
 }
@@ -77,6 +81,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: #212121;
 }
 
